@@ -1,0 +1,129 @@
+#add-link {
+    font-size: 0.8em;
+    color: #401e01;
+    border: 2px solid #401e01;
+    padding: 0 4px;
+}
+
+#edit-link {
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+}
+  
+#delete-link {
+    float: right;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+}
+
+.craft-card {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.craft-image {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.modal-image {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; 
+    max-width: 600px;
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow-y: auto; 
+}
+
+
+.modal-content {
+    color: #333; 
+    display: flex;
+}
+
+.modal-image {
+    width: 150px; 
+    height: 150px; 
+    margin-right: 20px; 
+    flex: 1;
+}
+
+.modal-text {
+    flex: 1; 
+}
+
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#img-prev-section {
+    width: 100px;
+    border: 1px solid #401e01;
+    max-width: 100px;
+    margin-right: 5px;
+  }
+  #img-prev {
+    padding: 2.5%;
+    display: block;
+    margin: auto;
+    max-width: 95%;
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-wrap:wrap;
+    padding: 0 4px;
+  }
+  
+  .gallery-item {
+    flex: 25%;
+    max-width: 25%;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
